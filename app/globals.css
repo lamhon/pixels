@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root {
+  --main-color: rgb(101, 69, 31);
+  --second-color: rgb(118, 88, 39);
+  --third-color: rgb(200, 174, 125);
+  --sub-color: rgb(234, 198, 150);
+
+  --font-main: 'Roboto', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-main);
+}
+
+html,
+body {
+  max-width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer {
+  height: 3vh;
+  background-color: #bbbbbb;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+.load-wait {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.05);
+}
